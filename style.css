@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: gray;
+    text-align: center;
+    user-select: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+span {
+    color: black;
+}
+
+.box {
+    display: inline-block;
+    border: 0.0625rem solid grey;
+    height: 6.5rem;
+    width: 6.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0rem;
+    font-size: 5rem;
+}
+
+
+button {
+    background-color: white;
+    border: 0.125rem solid burlywood;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    height: 2rem;
+}
