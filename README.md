@@ -8,5 +8,6 @@
 - Added alpha-beta pruning to make the game run smoother and faster.
 - Cosy paper-like background colour :)
 
-Have fun~
-Link: https://github.com/tLok922/Minimax-Tic-Tac-Toe
+## Have fun~
+
+### Link: https://github.com/tLok922/Minimax-Tic-Tac-Toe
