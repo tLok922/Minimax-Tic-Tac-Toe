@@ -24,12 +24,6 @@ function init() {
     }
     boxes.forEach(box => box.addEventListener("click", play));
     restartBtn.addEventListener("click", init);
-    // seed = Math.floor(Math.random());
-    // seedInputBox.addEventListener("keypress",function (e){
-    //     if (e.key == 'Enter'){
-    //         seed = seedInputBox.value;
-    //     }
-    // });
     boxes.forEach(display);
 }
 
@@ -54,7 +48,7 @@ function display(box) {
 
 function play() {
     if (isGameOver) {
-        alert("Game has ended!")
+        alert("Game has ended! Click the restart button (the middle one) to play again :D")
         return;
     }
     const idx = this.getAttribute("id");
