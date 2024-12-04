@@ -10,4 +10,4 @@
 
 ## Have fun~
 
-### Link: https://github.com/tLok922/Minimax-Tic-Tac-Toe
+### Link: https://tlok922.github.io/Minimax-Tic-Tac-Toe/
