@@ -1,3 +1,5 @@
+// Artificial Stupidity :P
+
 const maximinBtn = document.querySelector("#maximin");
 
 function init() {
@@ -59,26 +61,3 @@ function maximin(board, player, depth = 0, alpha = Infinity, beta = -Infinity) {
     }
     return {"wScore": worstScore, "depth":minDepth};
 }
-
-// function maximin(board, player, alpha = Infinity, beta = -Infinity) {
-//     //Negamin-AB Algorithm
-    
-//     let gameStatus = checkWinner(board);
-//     if (gameStatus != -1) {
-//         if (gameStatus == 0) return 0;
-//         else if (gameStatus == player) return 1;
-//         else return -1;
-//     }
-//     let worstScore = Infinity;
-//     for (let i = 0; i < 9; i++) {
-//         if (board[i] == 0) {
-//             board[i] = player;
-//             let score = -maximin(board, (player % 2 + 1), -beta, -Math.min(alpha, worstScore));
-//             board[i] = 0;
-//             worstScore = Math.min(score, worstScore);
-//             if (worstScore <= beta)
-//                 break;
-//         }
-//     }
-//     return worstScore;
-// }
