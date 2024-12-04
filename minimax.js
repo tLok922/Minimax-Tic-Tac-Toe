@@ -1,3 +1,5 @@
+// Artificial Intelligence :D
+
 const minimaxBtn = document.querySelector("#minimax");
 
 function init() {
@@ -63,29 +65,3 @@ function minimax(board, player, depth = 0, alpha = -Infinity, beta = Infinity) {
     }
     return {"bScore": bestScore, "depth":minDepth};
 }
-
-// function minimax(board, player, alpha = -Infinity, beta = Infinity) {
-//     //Negamax-AB Algorithm
-    
-//     let gameStatus = checkWinner(board);
-//     if (gameStatus != -1) {
-//         if (gameStatus == 0) return 0;
-//         else if (gameStatus == player) return 1;
-//         else return -1;
-//     }
-
-//     let bestScore = -Infinity;
-//     // let bestScore = alpha;
-//     for (let i = 0; i < 9; i++) {
-//         if (board[i] == 0) {
-//             board[i] = player;
-//             let score = -minimax(board, (player % 2 + 1), -beta, -Math.max(alpha, bestScore));
-//             // let score = -minimax(board, (player % 2 + 1), -beta, -bestScore);
-//             board[i] = 0;
-//             bestScore = Math.max(score, bestScore);
-//             if (bestScore >= beta)
-//                 break;
-//         }
-//     }
-//     return bestScore;
-// }
