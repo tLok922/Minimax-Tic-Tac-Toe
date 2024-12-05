@@ -4,6 +4,8 @@ body {
     color: gray;
     text-align: center;
     user-select: none;
+    -webkit-user-select: none; /* Safari */
+    user-select: none; /* Standard syntax */
 }
 
 h1 {
